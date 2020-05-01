@@ -1,0 +1,38 @@
+一、安装JDK
+cd  /home
+
+mkdir work
+
+cd work
+
+scp root@192.168.0.140:/home/banshuai/jdk-8u231-linux-x64.rpm ./
+
+rpm -ivh jdk-8u231-linux-x64.rpm
+
+查看
+
+java -version
+
+二、更新yum 源
+
+cd /etc
+
+mv yum.repos.d yum.repos.d.bak
+
+scp -r -q root@192.168.0.141:/etc/yum.repos.d ./
+
+三、更新hostname
+
+hostnamectl set -hostname xx
+
+四、安装ntp
+
+cd /etc
+
+scp root@192.168.0.140：/etc/hosts ./
+
+yum -y install ntp*
+
+cd /etc
+
+scp root@192.168.0.141:/etc/ntp.conf ./

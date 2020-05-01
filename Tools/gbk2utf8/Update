@@ -1,0 +1,22 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'plugins' (position: START_TAG seen ...f these are not already contained in the list.\n   |-->\n  <plugins>... @78:12)  @ D:\Program Files(¡Á86)\maven3\apache-maven-3.6.2\bin\..\conf\settings.xml, line 78, column 12
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< io.downgoon.tools:gbk2utf8 >---------------------
+[INFO] Building gbk2utf8 0.1.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.167 s
+[INFO] Finished at: 2019-11-03T18:44:36+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "or". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
